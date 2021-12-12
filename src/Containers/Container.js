@@ -17,14 +17,12 @@ const Container = () => {
           <Route path='/dayfour' element={<DayFour />} />
           <Route path='/dayfive' element={<DayFive />} />
           <Route path='/daysix' element={<DaySix />} />
-          <Route path='/dayseven' element={<DaySeven />} />
-        </Routes>
-        <Routes>
           <Route path='/anton' element={<Anton />} />
           <Route path='/tutaina' element={<Tutaina />} />
           <Route path='/nanita' element={<Nanita />} />
           <Route path='/campana' element={<Campana />} />
           <Route path='/peces' element={<Peces />} />
+          <Route path='/dayseven' element={<DaySeven />} />
         </Routes>
       </Layout>
     </>
