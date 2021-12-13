@@ -1,11 +1,11 @@
 .mainMenu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .mainMenu .menuOption img {
-  width: 100px;
+  width: 70px;
   margin: 10px;
 }
