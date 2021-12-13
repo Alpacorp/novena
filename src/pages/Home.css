@@ -1,0 +1,11 @@
+.mainMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mainMenu .menuOption img {
+  width: 100px;
+  margin: 10px;
+}

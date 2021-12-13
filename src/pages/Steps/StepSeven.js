@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-const DaySeven = () => {
+const StepSeven = () => {
   return (
     <>
       <h2>Elige un villancico para cantar</h2>
@@ -24,4 +24,4 @@ const DaySeven = () => {
   )
 };
 
-export default DaySeven;
+export default StepSeven;

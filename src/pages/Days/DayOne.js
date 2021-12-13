@@ -1,18 +1,44 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
+import { dayone } from '../../assets';
+import DayImgDate from '../../Components/DayImgDate';
+import './Days.css';
 
 const DayOne = () => {
   return (
     <>
-      <h2>Oración para todos los días</h2>
-      <p>Benignísimo Dios de infinita caridad, que tanto amasteis a los hombres, que les disteis en vuestro Hijo la mejor prenda de vuestro amor, para que hecho hombre en las entrañas de una Virgen, naciese en un pesebre para nuestra salud y remedio; yo, en nombre de todos los mortales, os doy infinitas gracias por tan soberano beneficio. </p>
+      <Link to='/steptwo'>
+        Atrás
+      </Link>
+      <DayImgDate image={dayone} textImage='day one' />
+      <h3>Día Primero</h3>
       <p>
-        En retorno de él, os ofrezco la pobreza, humildad, y demás virtudes de vuestro Hijo humanado, suplicándoos por sus divinos méritos, por las incomodidades con que nació, por las tiernas lágrimas que derramó en el pesebre, dispongáis nuestros corazones con humildad profunda, con amor encendido, con total desprecio de todo lo terreno, para que Jesús recién nacido tenga en ellos su cuna y more eternamente.
+        En el principio de los tiempos el Verbo reposaba en el seno de su Padre en lo más alto de los cielos; allí era la causa, a la par que el modelo de toda la creación.
       </p>
-      <p>Amén</p>
-      <small>Se reza tres veces el Gloria al Padre</small>
-      <div>
-        <p>Desliza el texto para leer más</p>
-      </div>
+      <p>
+        En esas profundidades de una incalculable eternidad permanecía el Niño de Belén antes de que se dignara bajar a la Tierra y tomara visiblemente posesión de la gruta de Belén.
+      </p>
+      <p>
+        Allí es donde debemos buscar sus principios que jamás han comenzando; de allí debemos datar la genealogía de lo eterno, que no tiene antepasados y contemplar la vida de complacencia infinita que allí llevaba.
+      </p>
+      <p>
+        La vida del Verbo eterno en el seno de su Padre era una vida maravillosa y sin embargo, ¡misterio sublime!, busca otra morada, una mansión creada.
+      </p>
+      <p>
+        No era porque en su mansión eterna faltase algo a su infinita felicidad, sino porque su misericordia infinita anhelaba la redención y la salvación del género humano, que sin Él no podría verificarse.
+      </p>
+      <p>
+        El pecado de Adán había ofendido a Dios y esa ofensa infinita no podía ser condonada sino por los méritos del mismo Dios.
+      </p>
+      <p>
+        La raza de Adán había desobedecido y merecido un castigo eterno; era pues necesario para salvarla y satisfacer su culpa, que Dios, sin dejar el cielo, tomase la forma del hombre sobre la Tierra y con la obediencia a los designios de su Padre expiase aquella desobediencia, ingratitud y rebeldía.
+      </p>
+      <p>
+        Era necesario, en las miras de su amor, que tomase la forma, las debilidades e ignorancias sistemáticas del hombre; que creciese para darle crecimiento espiritual; que sufriese, para enseñarle a morir a sus pasiones y a su orgullo.
+      </p>
+      <p>
+        Y por eso el Verbo eterno, ardiendo en deseos de salvar al hombre, resolvió hacerse hombre también y así redimir al culpable.
+      </p>
     </>
   )
 };

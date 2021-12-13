@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const DayThree = () => {
+const StepThree = () => {
   return (
     <>
       <h2>
@@ -18,4 +18,4 @@ const DayThree = () => {
   );
 }
 
-export default DayThree;
+export default StepThree;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const DaySix = () => {
+const StepSix = () => {
   return (
     <>
       <h2>Oración al Niño Jesús</h2>
@@ -25,4 +25,4 @@ const DaySix = () => {
   )
 };
 
-export default DaySix;
+export default StepSix;

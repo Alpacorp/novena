@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { data } from '../../Data/data.json';
 
-const DayFive = () => {
+const StepFive = () => {
 
   const [counter, setCounter] = useState(0);
 
@@ -45,4 +45,4 @@ const DayFive = () => {
   );
 };
 
-export default DayFive;
+export default StepFive;
