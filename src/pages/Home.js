@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import { chico, duende, galleta, monigote, mujer, santa, pinguino } from '../assets';
+import { one, two, three, four, five, six, seven } from '../assets';
 
 const Home = () => {
   return (
@@ -9,25 +9,25 @@ const Home = () => {
       <p>Sigue cada paso  y reza en familia</p>
       <div className='mainMenu'>
         <Link to='/stepone' className='menuOption'>
-          <img src={chico} alt="chico" />
+          <img src={one} alt="chico" />
         </Link>
         <Link to='/steptwo' className='menuOption'>
-          <img src={duende} alt="duende" />
+          <img src={two} alt="duende" />
         </Link>
         <Link to='/stepthree' className='menuOption'>
-          <img src={galleta} alt="galleta" />
+          <img src={three} alt="galleta" />
         </Link>
         <Link to='/stepfour' className='menuOption'>
-          <img src={monigote} alt="monigote" />
+          <img src={four} alt="monigote" />
         </Link>
         <Link to='/stepfive' className='menuOption'>
-          <img src={mujer} alt="mujer" />
+          <img src={five} alt="mujer" />
         </Link>
         <Link to='/stepSix' className='menuOption'>
-          <img src={santa} alt="santa" />
+          <img src={six} alt="santa" />
         </Link>
         <Link to='/stepseven' className='menuOption'>
-          <img src={pinguino} alt="pinguino" />
+          <img src={seven} alt="pinguino" />
         </Link>
       </div>
     </>
