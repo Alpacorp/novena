@@ -1,14 +1,12 @@
 import * as React from 'react';
 import { daytwo } from '../../assets';
-import { Link } from 'react-router-dom';
 import DayImgDate from '../../Components/DayImgDate';
+import Back from '../../Components/Back';
 
 const DayTwo = () => {
   return (
     <>
-      <Link to='/steptwo'>
-        Atrás
-      </Link>
+      <Back url='/steptwo' />
       <DayImgDate image={daytwo} textImage='day two' />
       <h3>Día Segundo</h3>
       <p>
