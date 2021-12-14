@@ -14,7 +14,6 @@ const StepFour = () => {
       </p>
       <p>Amén</p>
       <small>Padrenuestro, Avemaría y Gloria</small>
-      <small>Desliza el texto para leer más</small>
     </>
   );
 }
