@@ -2,11 +2,14 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import { one, two, three, four, five, six, seven } from '../assets';
+import BrandLogo from '../Components/BrandLogo';
+import Servientrega from '../assets/brands/logo-Servientrega.png';
 
 const Home = () => {
   return (
     <>
-      <p>Sigue cada paso  y reza en familia</p>
+      <BrandLogo src={Servientrega} />
+      <p className='instructive'>Sigue cada paso  y reza en familia</p>
       <div className='mainMenu'>
         <Link to='/stepone' className='menuOption'>
           <img src={one} alt="chico" />

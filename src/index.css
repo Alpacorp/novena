@@ -2,4 +2,11 @@
 
 * {
   font-family: 'Pangolin', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: paint(bubbles);
+  background: #FCF5EF;
 }

@@ -1,0 +1,46 @@
+.header {
+  background-image: url('../assets/components/header_full.png');
+  height: 60px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+  background-size: cover;
+  text-align: center;
+}
+
+.back {
+  width: 76px;
+  margin: 22px 0;
+  animation: pulso 4s infinite;
+}
+
+@keyframes pulso {
+  from {transform: none;}
+  50% {transform: scale(1.08);}
+  to {transform: none;}
+}
+
+.slide p {
+  font-size: 15px;
+  color: #439555;
+  margin: 5px;
+  ;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-image: url('../assets/components/footer.svg');
+  background-repeat: no-repeat;
+  height: 230px;
+  width: 100%;
+  background-position: right;
+}
+
+.footer p {
+  position: relative;
+  text-align: center;
+  bottom: -100px;
+  color: #BCC585;
+}
