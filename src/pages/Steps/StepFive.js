@@ -18,12 +18,19 @@ const StepFive = () => {
   return (
     <>
       <h2>Los Gozos</h2>
-      <p>Dulce Jesús mío,</p>
-      <p>mi niño adorado,</p>
+      {
+        counter === 0 ? '' : `${counter} de 12`
+      }
+      <br />
+      {
+        !dataInfo || dataInfo === 'undefined' || dataInfo === '' || dataInfo.length === 0 ? '' : dataInfo[0].message
+      }
+      <br />
       <small>!Ven a nuestras almas,</small>
       <small>ven no tardes tanto!</small>
+      <br />
       {
-        counter <= 1 ?
+        counter <= 0 ?
           ''
           :
           <button onClick={before}>
@@ -38,9 +45,6 @@ const StepFive = () => {
           : ''
       }
       <hr />
-      {
-        !dataInfo || dataInfo === 'undefined' || dataInfo === '' || dataInfo.length === 0 ? 'No existe' : dataInfo[0].message
-      }
     </>
   );
 };

@@ -1,14 +1,12 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import Back from '../../Components/Back';
 
 const Anton = () => {
   return (
     <>
-      <Link to='/dayseven'>
-        Atrás
-      </Link>
+      <Back url='/stepseven' />
       <h2>Anton Tiruliruliru</h2>
-      <p>Video</p>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/AJlU2aD4Rag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </>
   )
 };

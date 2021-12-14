@@ -1,6 +1,10 @@
 {
   "data": [
     {
+      "id": 0,
+      "message": "Dulce Jesús mío, mi niño adorado,"
+    },
+    {
       "id": 1,
       "message": "¡Oh, Sapiencia suma del Dios soberano, que a infantil alcance te rebajas sacro! ¡Oh, Divino Niño, ven para enseñarnos la prudencia que hace verdaderos sabios!"
     },
@@ -46,7 +50,7 @@
     },
     {
       "id": 12,
-      "message": "¡Ven Salvador nuestro por quien suspiramos"
+      "message": "¡Ven Salvador nuestro por quien suspiramos!"
     }
   ]
 }
