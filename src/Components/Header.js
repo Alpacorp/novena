@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Back from './Back';
+import './Components.css';
 
 const Header = () => {
   return (
-    <div>
-      <Link to='/'>
-        Inicio
-      </Link>
+    <div className='header'>
+      <Back url='/' />
     </div>
   )
 };
