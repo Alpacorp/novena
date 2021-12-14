@@ -3,10 +3,12 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 50px 0;
 }
 
 .calendar img {
   width: 71px;
+  margin-top: 5px;
 }
 
 .steps {
