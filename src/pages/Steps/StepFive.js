@@ -19,7 +19,7 @@ const StepFive = () => {
     <>
       <h2>Los Gozos</h2>
       {
-        counter == 0 ? '' : `${counter} de 12`
+        counter === 0 ? '' : `${counter} de 12`
       }
       <br />
       {
