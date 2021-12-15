@@ -94,3 +94,8 @@
   margin: 0 0 20px 0;
 }
 
+@media screen and (min-width: 800px) {
+  .introModal .novenaImage img {
+    height: 100px;
+  }
+}

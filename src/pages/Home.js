@@ -7,6 +7,7 @@ import BrandLogo from '../Components/BrandLogo';
 const Home = () => {
   return (
     <>
+      {/* <BrandLogo src={onOff} /> */}
       <BrandLogo src={MainTitle} />
       <p className='instructive'>Sigue cada paso  y reza en familia</p>
       <div className='mainMenu'>
