@@ -14,6 +14,8 @@ import daysix from './days/21.svg';
 import dayseven from './days/22.svg';
 import dayeight from './days/23.svg';
 import daynine from './days/24.svg';
+import beforeIcon from './components/before.svg';
+import afterIcon from './components/after.svg';
 
 export {
   one,
@@ -31,5 +33,7 @@ export {
   daysix,
   dayseven,
   dayeight,
-  daynine
+  daynine,
+  beforeIcon,
+  afterIcon
 }

@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import DayImgDate from '../../Components/DayImgDate';
+import Slide from '../../Components/Slide';
 import { data } from '../../Data/data.json';
+import { beforeIcon, afterIcon, five } from '../../assets';
 
 const StepFive = () => {
 
@@ -17,34 +20,39 @@ const StepFive = () => {
 
   return (
     <>
-      <h2>Los Gozos</h2>
-      {
-        counter === 0 ? '' : `${counter} de 12`
-      }
-      <br />
-      {
-        !dataInfo || dataInfo === 'undefined' || dataInfo === '' || dataInfo.length === 0 ? '' : dataInfo[0].message
-      }
-      <br />
-      <small>!Ven a nuestras almas,</small>
-      <small>ven no tardes tanto!</small>
-      <br />
-      {
-        counter <= 0 ?
-          ''
-          :
-          <button onClick={before}>
-            Anterior
-          </button>
-      }
-      {
-        counter < 12 ?
-          <button onClick={next}>
-            Siguiente
-          </button>
-          : ''
-      }
-      <hr />
+      <div className='steps'>
+        <DayImgDate image={five} textImage='step five' />
+        <h2>Los Gozos</h2>
+        <Slide />
+        {
+          counter === 0 ? '' : `${counter} de 12`
+        }
+        <br />
+        <div className='stepText'>
+          <p className='gozos'>
+            {
+              !dataInfo || dataInfo === 'undefined' || dataInfo === '' || dataInfo.length === 0 ? '' : dataInfo[0].message
+            }
+          </p>
+          <br />
+          <small>!Ven a nuestras almas,</small>
+          <small>ven no tardes tanto!</small>
+          <br />
+          <div className='buttons'>
+            {
+              counter <= 0 ?
+                ''
+                :
+                <img src={beforeIcon} onClick={before} className='buttonBefore' alt='icon before' />
+            }
+            {
+              counter < 12 ?
+                <img src={afterIcon} onClick={next} className='buttonAfter' alt='icon after' />
+                : ''
+            }
+          </div>
+        </div>
+      </div>
     </>
   );
 };

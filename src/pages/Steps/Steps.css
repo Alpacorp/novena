@@ -9,6 +9,7 @@
 .calendar img {
   width: 71px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 
 .steps {
@@ -45,8 +46,30 @@
   line-height: 23px;
 }
 
+.stepText .gozos {
+  height: 100px;
+}
+
 .steps small {
   color: brown;
   font-size: 15px;
+}
+
+.buttons {
+  text-align: center;
+  position: relative;
+  bottom: -100px;
+}
+
+.buttonBefore, .buttonAfter{
+  height: 50px;
+  text-align: center;
+  animation: pulso 2s infinite;
+}
+
+@keyframes pulso {
+  from {transform: none;}
+  50% {transform: scale(1.2)}
+  to {transform: none;}
 }
 

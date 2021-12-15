@@ -10,9 +10,9 @@
 }
 
 .back {
-  width: 76px;
+  width: 50px;
   margin: 22px 0;
-  animation: pulso 4s infinite;
+  animation: pulso 2s infinite;
 }
 
 @keyframes pulso {
@@ -41,6 +41,6 @@
 .footer p {
   position: relative;
   text-align: center;
-  bottom: -100px;
+  bottom: -200px;
   color: #BCC585;
 }
