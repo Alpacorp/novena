@@ -97,4 +97,7 @@
     height: auto;
     width: 30%;
   }
+  .mainMenu .menuOption img {
+    width: 80px;
+  }
 }
