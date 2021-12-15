@@ -22,16 +22,12 @@
 }
 
 .brandLogo {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   text-align: center;
   margin: 30px 20px 0 20px;
-  /* max-width: 300px; */
 }
 
 .brandLogo img {
-  height: 90px;
+  height: 65px;
   width: 100%;
 }
 
@@ -92,5 +88,9 @@
 
 .introModal .novenaImage {
   margin-top: 50px;
+}
+
+.introModal .brandLogo {
+  margin: 0 0 20px 0;
 }
 
