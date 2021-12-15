@@ -27,8 +27,8 @@
 }
 
 .brandLogo img {
-  height: 65px;
-  width: 100%;
+  height: auto;
+  width: 30%;
 }
 
 .slide p {

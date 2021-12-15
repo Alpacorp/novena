@@ -33,6 +33,7 @@ import Servientrega from '../assets/brands/logo-Servientrega.png';
 import Star from '../assets/brands/star.svg';
 import MainTitle from '../assets/components/main-title.svg';
 import onOff from '../assets/brands/on-off.svg';
+import leonardoRico from '../assets/brands/feliz-navidad-rico.png';
 
 export {
   one,
@@ -69,5 +70,6 @@ export {
   fivePage,
   sixPage,
   sevenPage,
-  onOff
+  onOff,
+  leonardoRico
 }
