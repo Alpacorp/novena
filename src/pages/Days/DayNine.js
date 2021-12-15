@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { daynine } from '../../assets';
-import Back from '../../Components/Back';
 import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 
