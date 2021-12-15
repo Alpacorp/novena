@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import { dayone, daytwo, daythree, dayfour, dayfive, daysix, dayseven, dayeight, daynine, two } from '../../assets';
+import { dayone, daytwo, daythree, dayfour, dayfive, daysix, dayseven, dayeight, daynine, twoPage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
 import './Steps.css'
 
@@ -8,7 +8,7 @@ const StepTwo = () => {
   return (
     <>
       <div className='steps'>
-        <DayImgDate image={two} textImage='step two' />
+        <DayImgDate image={twoPage} textImage='step two' />
         <h2>Elige la lectura para hoy</h2>
         <div className='calendar'>
           <Link to='/dayone'>

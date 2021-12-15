@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 import { data } from '../../Data/data.json';
-import { beforeIcon, afterIcon, five } from '../../assets';
+import { beforeIcon, afterIcon, fivePage } from '../../assets';
 
 const StepFive = () => {
 
@@ -21,7 +21,7 @@ const StepFive = () => {
   return (
     <>
       <div className='steps'>
-        <DayImgDate image={five} textImage='step five' />
+        <DayImgDate image={fivePage} textImage='step five' />
         <h2>Los Gozos</h2>
         <Slide />
         {

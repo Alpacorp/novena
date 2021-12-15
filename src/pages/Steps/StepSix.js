@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { six } from '../../assets';
+import { sixPage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 
@@ -7,7 +7,7 @@ const StepSix = () => {
   return (
     <>
       <div className='steps'>
-        <DayImgDate image={six} textImage='step six' />
+        <DayImgDate image={sixPage} textImage='step six' />
         <h2>Oración al Niño Jesús</h2>
         <Slide />
         <div className='stepText'>

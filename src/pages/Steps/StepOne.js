@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { one } from '../../assets';
+import { onePage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 
@@ -7,7 +7,7 @@ const StepOne = () => {
   return (
     <>
       <div className='steps'>
-        <DayImgDate image={one} textImage='day one' />
+        <DayImgDate image={onePage} textImage='day one' />
         <h2>Oración para todos los días</h2>
         <Slide />
         <div className='stepText'>

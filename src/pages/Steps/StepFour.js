@@ -1,5 +1,5 @@
 import React from 'react';
-import { four } from '../../assets';
+import { fourPage } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 
@@ -7,7 +7,7 @@ const StepFour = () => {
   return (
     <>
       <div className='steps'>
-        <DayImgDate image={four} textImage='step four' />
+        <DayImgDate image={fourPage} textImage='step four' />
         <h2>
           Oración a San José
         </h2>

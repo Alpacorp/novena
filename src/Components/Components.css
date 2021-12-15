@@ -28,6 +28,7 @@
 
 .brandLogo img {
   height: 90px;
+  width: 400px;
 }
 
 .slide p {
@@ -46,6 +47,7 @@
   width: 100%;
   background-position: right;
   mix-blend-mode: multiply;
+  z-index: 0;
 }
 
 .footer p {
@@ -54,3 +56,37 @@
   bottom: -200px;
   color: #BCC585;
 }
+
+.introModal {
+  background: #FCF5EF;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  animation: 1s;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.introModal .introContent {
+  margin: 50px;
+}
+
+.decorUp img {
+  height: 200px;
+}
+
+.familyImage img {
+  height: 200px;
+}
+
+.introModal .novenaImage {
+  margin-top: 50px;
+}
+

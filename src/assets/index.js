@@ -4,6 +4,13 @@ import three from './steps/3.svg';
 import four from './steps/4.svg';
 import five from './steps/5.svg';
 import six from './steps/6.svg';
+import onePage from './steps/1P.svg';
+import twoPage from './steps/2P.svg';
+import threePage from './steps/3P.svg';
+import fourPage from './steps/4P.svg';
+import fivePage from './steps/5P.svg';
+import sixPage from './steps/6P.svg';
+import sevenPage from './steps/7P.svg';
 import seven from './steps/7.svg';
 import dayone from './days/16.svg';
 import daytwo from './days/17.svg';
@@ -24,6 +31,7 @@ import footer from './components/decoracion_abajo.svg';
 import brandLogoIntro from './components/sulogoaquiintro.svg';
 import Servientrega from '../assets/brands/logo-Servientrega.png';
 import Star from '../assets/brands/star.svg';
+import MainTitle from '../assets/components/main-title.svg';
 
 export {
   one,
@@ -51,5 +59,13 @@ export {
   footer,
   brandLogoIntro,
   Servientrega,
-  Star
+  Star,
+  MainTitle,
+  onePage,
+  twoPage,
+  threePage,
+  fourPage,
+  fivePage,
+  sixPage,
+  sevenPage
 }

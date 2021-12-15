@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { seven } from '../../assets';
+import { sevenPage } from '../../assets';
 import { Link } from 'react-router-dom';
 import DayImgDate from '../../Components/DayImgDate';
 
@@ -7,7 +7,7 @@ const StepSeven = () => {
   return (
     <>
       <div className='steps'>
-        <DayImgDate image={seven} textImage='step seven' />
+        <DayImgDate image={sevenPage} textImage='step seven' />
         <h2>Elige un villancico para cantar</h2>
         <div className='sings'>
           <Link to='/anton' id='green'>
