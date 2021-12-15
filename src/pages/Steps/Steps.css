@@ -13,7 +13,7 @@
 }
 
 .steps {
-  margin: 50px 30px;
+  margin: 30px;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@
   text-align: left;
   font-size: 17px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .stepText p {
@@ -47,7 +47,7 @@
 }
 
 .stepText .gozos {
-  height: 100px;
+  height: 150px;
 }
 
 .steps small {
@@ -55,10 +55,50 @@
   font-size: 15px;
 }
 
+.steps .sings {
+  width: 250px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.steps .sings a {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  /* width: 100%; */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+#green {
+  background-color: #439555;
+}
+
+#clearGreen {
+  background-color: #BCC585;
+  color: #439555;
+}
+
+#red {
+  background-color: #CA3029;
+}
+
+#orange {
+  background-color: #E9AE3D;
+}
+
+#brown {
+  background-color: #C3893E;
+}
+
 .buttons {
   text-align: center;
   position: relative;
-  bottom: -100px;
+  bottom: -50px;
 }
 
 .buttonBefore, .buttonAfter{
