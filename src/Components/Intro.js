@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { mainFamily, novenaIntro, onOff } from '../assets';
-import BrandLogo from './BrandLogo';
+import { mainFamily, novenaIntro } from '../assets';
+// import BrandLogo from './BrandLogo';
 import './Components.css';
 
 const Intro = () => {
@@ -8,7 +8,7 @@ const Intro = () => {
     <>
       <div className='introModal'>
         <div className='introContent'>
-          <BrandLogo src={onOff} />
+          {/* <BrandLogo src={onOff} /> */}
           <div className='familyImage'>
             <img src={mainFamily} alt="novena familiar" />
           </div>
