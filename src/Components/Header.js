@@ -1,14 +1,22 @@
-import React from 'react';
+import * as React from 'react';
+import PropTypes from 'prop-types';
 import Back from './Back';
 import './Components.css';
 import backButton from '../assets/components/botonvolver.svg';
 
-const Header = () => {
+const Header = ({ show }) => {
+  const showBack = show;
   return (
     <div className='header'>
-      <Back url='/' src={backButton} />
+      {
+        showBack ? <Back url='/' src={backButton} /> : ''
+      }
     </div>
   )
 };
+
+Header.propTypes = {
+  show: PropTypes.bool.isRequired
+}
 
 export default Header;

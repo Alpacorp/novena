@@ -16,6 +16,14 @@ import dayeight from './days/23.svg';
 import daynine from './days/24.svg';
 import beforeIcon from './components/before.svg';
 import afterIcon from './components/after.svg';
+import decorUp from './components/decoracion_arriba.svg';
+import decorDown from './components/decoracion_abajo.svg';
+import mainFamily from './components/navidad_belen.svg';
+import novenaIntro from './components/novena_aguinaldo.svg';
+import footer from './components/decoracion_abajo.svg';
+import brandLogoIntro from './components/sulogoaquiintro.svg';
+import Servientrega from '../assets/brands/logo-Servientrega.png';
+import Star from '../assets/brands/star.svg';
 
 export {
   one,
@@ -35,5 +43,13 @@ export {
   dayeight,
   daynine,
   beforeIcon,
-  afterIcon
+  afterIcon,
+  decorUp,
+  decorDown,
+  mainFamily,
+  novenaIntro,
+  footer,
+  brandLogoIntro,
+  Servientrega,
+  Star
 }

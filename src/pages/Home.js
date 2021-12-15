@@ -1,14 +1,13 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css';
-import { one, two, three, four, five, six, seven } from '../assets';
+import './Pages.css';
+import { one, two, three, four, five, six, seven, Star } from '../assets';
 import BrandLogo from '../Components/BrandLogo';
-import Servientrega from '../assets/brands/logo-Servientrega.png';
 
 const Home = () => {
   return (
     <>
-      <BrandLogo src={Servientrega} />
+      <BrandLogo src={Star} />
       <p className='instructive'>Sigue cada paso  y reza en familia</p>
       <div className='mainMenu'>
         <Link to='/stepone' className='menuOption'>

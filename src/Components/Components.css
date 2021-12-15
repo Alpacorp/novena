@@ -45,6 +45,7 @@
   height: 230px;
   width: 100%;
   background-position: right;
+  mix-blend-mode: multiply;
 }
 
 .footer p {
