@@ -47,7 +47,7 @@
 }
 
 .stepText .gozos {
-  height: 100px;
+  height: 120px;
 }
 
 .steps small {
@@ -56,9 +56,11 @@
 }
 
 .steps .sings {
+  position: relative;
   width: 250px;
   text-align: center;
   margin: 20px auto;
+  z-index: 1;
 }
 
 .steps .sings a {
@@ -104,6 +106,7 @@
   height: 50px;
   text-align: center;
   animation: pulso 2s infinite;
+  margin: 0 10px;
 }
 
 @keyframes pulso {
