@@ -98,4 +98,7 @@
   .introModal .novenaImage img {
     height: 100px;
   }
+  .mainMenu .menuOption img {
+    width: 100px;
+  }
 }
