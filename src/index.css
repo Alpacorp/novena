@@ -5,12 +5,3 @@
   margin: 0;
   padding: 0;
 }
-
-:root {
-  background: #FCF5EF;
-}
-
-body {
-  background-image: paint(bubbles);
-  background: #FCF5EF;
-}

@@ -28,7 +28,7 @@
 
 .brandLogo img {
   height: auto;
-  width: 30%;
+  width: 100%;
 }
 
 .slide p {
@@ -41,13 +41,8 @@
 .footer {
   position: fixed;
   bottom: 0;
-  background-image: url('../assets/components/footer.svg');
-  background-repeat: no-repeat;
   height: 230px;
   width: 100%;
-  background-position: right;
-  mix-blend-mode: multiply;
-  z-index: 0;
 }
 
 .footer p {
@@ -97,5 +92,9 @@
 @media screen and (min-width: 800px) {
   .introModal .novenaImage img {
     height: 100px;
+  }
+  .brandLogo img {
+    height: auto;
+    width: 30%;
   }
 }
