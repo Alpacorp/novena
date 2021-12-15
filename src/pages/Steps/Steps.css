@@ -1,9 +1,11 @@
 .calendar {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 50px 0;
+  z-index: 1;
 }
 
 .calendar img {
@@ -47,7 +49,8 @@
 }
 
 .stepText .gozos {
-  height: 120px;
+  /* height: 250px; */
+  margin: 0;
 }
 
 .steps small {

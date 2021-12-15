@@ -3,11 +3,14 @@ import { dayone } from '../../assets';
 import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 import './Days.css';
+import Back from '../../Components/Back';
+import backButtonIcon from '../../assets/components/volver.svg';
 
 const DayOne = () => {
   return (
     <>
       <div className='steps'>
+        <Back url='/steptwo' src={backButtonIcon} />
         <DayImgDate image={dayone} textImage='day one' />
         <h2>Día Primero</h2>
         <Slide />
