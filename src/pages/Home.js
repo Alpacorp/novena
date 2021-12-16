@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import './Pages.css';
 import { one, two, three, four, five, six, seven, MainTitle } from '../assets';
 import BrandLogo from '../Components/BrandLogo';
+import Header from '../Components/Header';
 
 const Home = () => {
   return (
     <>
-      {/* <BrandLogo src={onOff} /> */}
+      <Header show={false} />
       <BrandLogo src={MainTitle} />
       <p className='instructive'>Sigue cada paso  y reza en familia</p>
       <div className='mainMenu'>

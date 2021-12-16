@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Footer from '../Components/Footer';
-import Header from '../Components/Header';
 import Intro from '../Components/Intro';
 
 const Layout = ({ children }) => {
@@ -17,7 +16,6 @@ const Layout = ({ children }) => {
   return (
     <>
       {showIntro ? <Intro /> : ''}
-      <Header show={true} />
       {children}
       <Footer />
     </>
