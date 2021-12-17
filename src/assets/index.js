@@ -33,6 +33,12 @@ import Servientrega from '../assets/brands/logo-Servientrega.png';
 import Star from '../assets/brands/star.svg';
 import MainTitle from '../assets/components/main-title.svg';
 import onOff from '../assets/brands/on-off.svg';
+import logoTty from '../assets/brands/logo-tty.png';
+import adopta from '../assets/foundations/1-fundacion-adopta.jpg';
+import sanar from '../assets/foundations/2-fundacion-sanar.jpg';
+import techo from '../assets/foundations/3-fundacion-techo.jpg';
+import fruto from '../assets/foundations/4-fundacion-fruto.jpg';
+import amese from '../assets/foundations/5-fundacion-amese.jpg';
 
 export {
   one,
@@ -69,5 +75,11 @@ export {
   fivePage,
   sixPage,
   sevenPage,
-  onOff
+  onOff,
+  logoTty,
+  adopta,
+  sanar,
+  techo,
+  fruto,
+  amese
 }

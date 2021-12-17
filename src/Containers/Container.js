@@ -5,13 +5,15 @@ import { StepOne, StepTwo, StepThree, StepFour, StepFive, StepSix, StepSeven } f
 import { DayOne, DayTwo, DayThree, DayFour, DayFive, DaySix, DaySeven, DayEigth, DayNine } from '../pages/Days';
 import Home from '../pages/Home';
 import Layout from './Layout';
+import Intro from '../Components/Intro';
 
 const Container = () => {
   return (
     <>
       <Layout>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Intro />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/stepone' element={<StepOne />} />
           <Route path='/steptwo' element={<StepTwo />} />
           <Route path='/stepthree' element={<StepThree />} />

@@ -12,6 +12,7 @@
     "react-scripts": "^3.4.4",
     "web-vitals": "^1.1.2"
   },
+  "homepage": "https://thankstoyou.co/novena",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

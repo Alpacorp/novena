@@ -9,7 +9,7 @@ const Header = ({ show }) => {
   return (
     <div className='header'>
       {
-        showBack ? <Back url='/' src={backButton} /> : ''
+        showBack ? <Back url='/home' src={backButton} /> : ''
       }
     </div>
   )
